@@ -37,15 +37,11 @@
   }
 }
 
-.App {
-  text-align: center;
-}
-
 body {
   font-family: "nanumsquare";
 }
-/* nav */
 
+/* nav */
 .navBar {
   display: flex;
   background-color: beige;
@@ -54,4 +50,11 @@ body {
   font-size: 15px;
   font-weight: 700;
   color: black;
+}
+
+/* list */
+
+.list {
+  text-align: left;
+  padding: 0 20px;
 }
