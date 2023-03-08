@@ -45,6 +45,19 @@ function App() {
         <p>2월 27일 발행</p>
         <hr />
       </div>
+      <Modal></Modal>
+    </div>
+  );
+}
+
+const Modal = () => {}; // const로 만들경우 에러 메세지를 출력해준다.
+
+function Modal() {
+  return (
+    <div>
+      <h4>제목</h4>
+      <p>날짜</p>
+      <p>상세내용</p>
     </div>
   );
 }
